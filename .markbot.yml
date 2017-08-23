@@ -1,0 +1,51 @@
+repo: 'modularity-mindfulness'
+canvasCourse: 'web-dev-3'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - html-good-semantics
+  - css
+  - gridifier
+  - modulifier
+  - modulifier-list-group
+  - modulifier-embed
+  - modulifier-buttons
+  - typografier
+  - css-order-modules-grid-type-main
+  - google-fonts
+  - screenshots-all
+  - nav-hover
+
+html:
+  - path: 'index.html'
+    has:
+      - ['link[href*="Noto"]', 'The Google Font, `Noto Sans` (regular, italic & bold) is missing']
+      - ['i[lang="ja"]', 'The `<i>` tag should be used with the attribute `lang="ja"` to specify the parts of the website in Japanese']
+    search:
+      - 'Rock Gardens'
+      - '枯山水'
+      - 'Viewing'
+      - 'Gravel'
+      - 'Symbolism'
+      - '自然の親密な本質を模倣し、人生の真の意味を発見する。'
+      - '閲覧'
+      - '砂利'
+      - '象徴主義'
+      - '© 794 Heian Period'
+
+css:
+  - path: 'css/main.css'
+    maxLines: 100
+    has:
+      - ['html', 'font-family', '"Noto Sans", sans-serif']
+      - ['.btn-ghost']
+      - ['@60']
+    search:
+      - '"Noto Sans Japanese"'
+      - ':hover'
+      - '#e2e2e2'
+      - '#860927'
+      - '#d89fb0'
+      - '#b64c6e'
