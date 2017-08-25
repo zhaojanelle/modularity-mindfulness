@@ -19,7 +19,7 @@ deliverables: '1 HTML file, 1 CSS file, 1 JS file, images'
 
 ## Details
 
-- *Typefaces:* `Noto Sans`, `Noto Sans Japanese` ([see below](#including-noto-sans-japanese))
+- *Typefaces:* `Noto Sans`, `Noto Sans Japanese` (see below…)
 - *Colours:* `#e2e2e2`, `#860927`, `#b64c6e`, `#d89fb0`
 - *Expected class names:* `.btn`, `.btn-ghost`
 - Include a hover state on the main navigation links & the buttons.
