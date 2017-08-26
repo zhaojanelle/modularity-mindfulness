@@ -1,7 +1,7 @@
 ---
 summary: 'A simple review exercise exploring grids, type systems & modular CSS'
 time: '1 hour'
-deliverables: '1 HTML file, 1 CSS file, 1 JS file, images'
+deliverables: '1 HTML file, 4 CSS files, images'
 ---
 
 # Modularity mindfulness
