@@ -47,6 +47,14 @@ h2 {
   border-bottom: 2px solid #e2e2e2;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .symbolism-content {
+    padding-left: .7rem;
+  }
+
+}
+
 @media only screen and (min-width:60em) {
 
   h1 {
