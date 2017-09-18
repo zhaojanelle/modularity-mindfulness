@@ -2,10 +2,6 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 .noto {
   font-family: "Noto Sans Japanese";
 }
@@ -41,6 +37,10 @@ h2 {
   border-top: 2px solid #e2e2e2;
   border-bottom: 2px solid #e2e2e2;
   text-align: center;
+  max-width: 23em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gardens {
@@ -49,18 +49,6 @@ h2 {
 
 footer {
   color: grey;
-}
-
-@media only screen and (min-width: 38em) {
-
-  .symbolism {
-    padding-top: 1.4rem;
-  }
-
-  .symbolism-content {
-    padding-left: .7rem;
-  }
-
 }
 
 @media only screen and (min-width:60em) {
