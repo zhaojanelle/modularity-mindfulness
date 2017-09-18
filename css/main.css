@@ -21,8 +21,16 @@ h1, nav {
   text-align: center;
 }
 
-@media only screen and (min-width: 20em) {
+nav a {
+  color: #b64c6e;
+  border-bottom: 2px solid #d89fb0;
+  text-decoration: none;
+  margin: 0 .35em;
+  padding-bottom: .25em;
+}
 
+nav a:hover {
+  color: #860927;
 }
 
 @media only screen and (min-width:60em) {
