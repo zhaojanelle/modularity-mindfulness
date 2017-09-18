@@ -17,6 +17,10 @@ html {
   box-sizing: inherit;
 }
 
+.noto {
+  font-family: "Noto Sans"
+}
+
 h1, nav {
   text-align: center;
 }
