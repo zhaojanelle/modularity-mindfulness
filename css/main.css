@@ -33,6 +33,12 @@ nav a:hover {
   color: #860927;
 }
 
+h2 {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+  text-align: center;
+}
+
 @media only screen and (min-width:60em) {
 
   h1 {
