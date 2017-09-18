@@ -7,11 +7,18 @@ html {
 }
 
 .noto {
-  font-family: "Noto Sans Japanese"
+  font-family: "Noto Sans Japanese";
 }
 
 .btn-ghost {
+  color: #b64c6e;
+  border: 2px solid #d89fb0;
+}
 
+.btn-ghost:hover {
+  color: #860927;
+  background-color: #d89fb0;
+  border: 2px solid #b64c6e;
 }
 
 h1, nav {
