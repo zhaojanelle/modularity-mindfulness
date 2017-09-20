@@ -25,6 +25,7 @@ nav a {
   color: #b64c6e;
   border-bottom: 2px solid #d89fb0;
   text-decoration: none;
+  font-family: "Noto Sans";
 }
 
 nav a:hover {
@@ -46,7 +47,7 @@ h2 {
 }
 
 footer {
-  color: grey;
+  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
