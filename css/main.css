@@ -82,4 +82,12 @@ footer {
     display: none;
   }
 
+  .rock-gardens {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
