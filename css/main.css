@@ -38,8 +38,6 @@ h2 {
   text-align: center;
   max-width: 23em;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .gardens {
@@ -50,14 +48,38 @@ footer {
   color: #666;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 20em) {
 
-  h1 {
-    text-align: left;
+  .symbolism-1 {
+    display: block;
   }
 
-  nav {
-    text-align: right;
+  .symbolism-2 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .symbolism-1 {
+    display: none;
+  }
+
+  .symbolism-2 {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .symbolism-1 {
+    display: block;
+  }
+
+  .symbolism-2 {
+    display: none;
   }
 
 }
